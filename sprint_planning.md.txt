@@ -86,6 +86,7 @@ Tareas:
 Asignación de Tareas
 
 Desarrollador 1: Jael
+------------------------------------------------------------------
 Reservas y Disponibilidad:
   Tarea 1.1: Definir los campos requeridos para la reserva.
   Nombre del cliente: Para identificar la reserva.
@@ -96,12 +97,21 @@ Reservas y Disponibilidad:
   Número de personas: Cantidad de comensales para preparar la mesa.
   Preferencias de mesa (opcional): Si se desea una mesa específica o al aire libre.
   Notas adicionales (opcional): Cualquier requerimiento especial, como alergias o celebraciones.
+----------------------------------------------------------------------------------------------------
 
   Tarea 1.2: Definir los criterios de aceptación para la funcionalidad de reservas.
 Ver la Disponibilidad de Mesas:
+Visualización de Mesas: El sistema debe mostrar una lista de mesas disponibles para la fecha y hora seleccionadas.
+Filtrado de Opciones: El usuario debe poder filtrar las mesas por número de personas y ubicación.
+Actualización en Tiempo Real: La disponibilidad de mesas debe actualizarse en tiempo real para evitar reservas duplicadas.
+Accesibilidad: La funcionalidad debe ser accesible desde dispositivos móviles.
+Confirmación de Disponibilidad: Al seleccionar una mesa, el sistema debe confirmar su disponibilidad antes de proceder con la reserva.
+---------------------------------------------------------------------------------------------
+
   Tarea 2.1: Definir cómo se visualizará la disponibilidad de mesas.
 La interfaz incluye un calendario para que los usuarios seleccionen fechas, tras lo cual se muestra un horario con bloques de tiempo disponibles. Se presenta un mapa gráfico del restaurante donde las mesas disponibles se marcan en verde y las ocupadas en gris o rojo. Al seleccionar una mesa, se despliega un popup con detalles como capacidad y tipo de mesa. Se pueden aplicar filtros para facilitar la búsqueda. Además, al seleccionar una mesa, el sistema proporciona feedback visual, y se mostrarán mensajes de error si no hay disponibilidad.
-  
+--------------------------------------------------------------------------------------------------------
+
 Desarrollador 2: María
 Ver el Menú:
   Tarea 3.1: Definir cómo se mostrará el menú.
