@@ -85,12 +85,68 @@ Tareas:
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Asignación de Tareas
 
-Desarrollador 1: Juan
+Desarrollador 1: Jael Portocarrero
 Reservas y Disponibilidad:
   Tarea 1.1: Definir los campos requeridos para la reserva.
+  Nombre del cliente: Para identificar la reserva.
+Número de teléfono: Para confirmar la reserva o contactar en caso de cambios.
+Correo electrónico: Para enviar confirmaciones o información adicional.
+Fecha de la reserva: Día en que se desea realizar la reserva.
+Hora de la reserva: Hora específica de llegada.
+Número de personas: Cantidad de comensales para preparar la mesa.
+Preferencias de mesa (opcional): Si se desea una mesa específica o al aire libre.
+Notas adicionales (opcional): Cualquier requerimiento especial, como alergias o celebraciones.
+
   Tarea 1.2: Definir los criterios de aceptación para la funcionalidad de reservas.
 Ver la Disponibilidad de Mesas:
+
+Criterios de Aceptación
+Visualización de Fecha y Hora:
+
+El sistema debe permitir al usuario seleccionar una fecha y hora para la reserva.
+Debe mostrar un calendario para facilitar la selección de fechas.
+Mostrar Disponibilidad:
+
+Al seleccionar una fecha y hora, el sistema debe mostrar claramente las mesas disponibles en ese horario.
+La disponibilidad debe actualizarse en tiempo real para reflejar cambios inmediatos.
+Capacidad de Mesas:
+
+El sistema debe indicar cuántas personas pueden ser acomodadas en cada mesa disponible.
+Debe mostrar opciones que se ajusten al número de comensales especificado por el usuario.
+Filtros de Búsqueda (opcional):
+
+El sistema puede ofrecer filtros adicionales, como tipo de mesa (interior, exterior) o ubicación (zona tranquila, cerca del bar).
+Interfaz Amigable:
+
+La interfaz debe ser intuitiva y fácil de usar, con instrucciones claras para la selección de fecha y hora.
+Debe incluir mensajes de error claros si la selección no es válida (por ejemplo, si no hay disponibilidad).
+Confirmación Visual:
+
+Una vez que se seleccione una mesa, el sistema debe mostrar un resumen de la selección (fecha, hora, mesa, capacidad).
+Accesibilidad:
+
+La funcionalidad debe ser accesible para todos los usuarios, cumpliendo con estándares de accesibilidad web.
+Compatibilidad Móvil:
+
+La funcionalidad debe ser responsiva y funcionar correctamente en dispositivos móviles.
+Carga de Datos:
+
+La disponibilidad debe cargarse en menos de 2 segundos después de realizar la selección.
+Soporte para Cambios:
+
+El sistema debe permitir al usuario volver a la selección de fecha y hora si decide cambiar.
   Tarea 2.1: Definir cómo se visualizará la disponibilidad de mesas.
+  Interfaz de Selección: Una pantalla inicial que muestre un calendario donde el usuario puede seleccionar la fecha. Al elegir la fecha, se despliega un horario con bloques de tiempo disponibles.
+
+Mapa de Mesas: Una representación gráfica del restaurante, mostrando la disposición de mesas. Las mesas disponibles se marcarán en verde, mientras que las ocupadas se mostrarán en gris o rojo.
+
+Detalles de Mesa: Al tocar una mesa disponible, se abrirá un popup con detalles como capacidad, tipo de mesa (interior/exterior) y opciones adicionales (como una vista al jardín).
+
+Filtros: Una opción para aplicar filtros como tipo de mesa o zona (tranquila, cerca del bar), para facilitar la búsqueda.
+
+Feedback Visual: Al seleccionar una mesa, el sistema proporcionará un feedback visual, como un cambio de color en la mesa y un resumen de la selección.
+
+Mensajes de Error: Si no hay disponibilidad, mostrar un mensaje claro que indique que no hay mesas disponibles en ese horario.
   
 Desarrollador 2: María
 Ver el Menú:
