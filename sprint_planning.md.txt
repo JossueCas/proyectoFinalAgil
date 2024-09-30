@@ -111,5 +111,29 @@ Ver la Disponibilidad de Mesas: 3
 Ver el Menú: 4
 Hacer Pedidos: 5
 Gestión de la Cola de Espera: 4
+//
+Usuario: Marlovy Renteria Cuero
+*Mi rol como usuario en la aplicación de restaurante de comidas rápidas* es hacer uso de sus funcionalidades para facilitar mi experiencia en el restaurante.
+
+ Al entrar a la aplicación:
+
+1. *Reservar mi mesa*:
+   - Ingreso mis datos (nombre, número de personas, fecha y hora).
+   - Confirmo que la reserva es gratuita y espero la confirmación en tiempo real.
+   
+2. *Ver la disponibilidad de mesas*:
+   - Consulto la disponibilidad en tiempo real según el horario que elija.
+   
+3. *Explorar el menú*:   
+   - Navego por las diferentes categorías de comida.
+   - Reviso las descripciones, precios y, si están disponibles, las imágenes para elegir qué quiero pedir.
+
+4. *Hacer mi pedido*:
+   - Selecciono los elementos que quiero pedir, los personalizo si es necesario.
+   - Confirmo el pedido y espero una notificación cuando esté listo.
+
+5. *Consultar mi posición en la fila de espera* (si el restaurante está lleno):
+   - Veo cuántas personas están delante de mí y cuánto tiempo debo esperar para ser atendido.
+
 
 
